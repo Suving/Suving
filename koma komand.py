@@ -1,4 +1,10 @@
-lause = "Osaühing Giga Investeeringud sai Tartu linnavalitsuselt loa et Turu tänaval vana keskkatlamaja kontorihoone ja selle juures asuva kaarhalli lammutamise loa."
+lause = input("Sisestage tekst: ")
 
 lause = lause.replace(" et ", ", et ")
+lause = lause.replace(" sest ", ", sest ")
+lause = lause.replace(" kui ", ", kui ")
+lause = lause.replace(" kuid ", ", kuid ")
+lause = lause.replace(" ega ", ", ega ")
+lause = lause.replace(" vaid ", ", vaid ")
+lause = lause.replace(" siis ", ", siis ")
 print(lause)
